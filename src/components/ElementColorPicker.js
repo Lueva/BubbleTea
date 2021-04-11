@@ -8,9 +8,7 @@ const ElementColorPicker = ({element, onChangeColor, color}) => {
         'height': '30px',
         'width': '30px',
         'backgroundColor': color,
-        'position': 'absolute',
         'border': 'none',
-        'right': '140px',
         'cursor': 'pointer'
     }
     return (
@@ -26,7 +24,9 @@ const ElementColorPicker = ({element, onChangeColor, color}) => {
         </ReactTooltip>
         <div className="element-picker">
             <h2> {element} </h2>
-            <input id="color-picker" data-tip data-for={"tooltip" + element} type="color" value={color} style={squareStyle} onChange={(event) => onChangeColor(event.target.value)} />  
+            <div className="picker">
+                <input id="color-picker" data-tip data-for={"tooltip" + element} type="color" value={color} style={squareStyle} onChange={(event) => onChangeColor(event.target.value)} />  
+            </div>
         </div>
     </React.Fragment>
 )}

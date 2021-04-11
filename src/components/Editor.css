@@ -7,17 +7,19 @@
     padding: 2rem;
 }
 
-.name-section {
+.name-section, .font-section {
     display: flex;
     align-items: center;
 }
 
-.name-section h2 {
+.name-section h2, .font-section h2 {
     margin-left: 1rem;
+    width: 4rem;
 }
 
 .name-section input {
     height: 0.8rem;
+    width: 11rem;
     margin-left: 1rem;
     padding: 0.5rem;
     border: none;
@@ -39,4 +41,19 @@
 
 .cup-size h2 {
     margin-right: 2rem;
+}
+
+.surprise-button {
+    border-radius: 20px;
+    margin-left: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #e1edf1;
+    background-color: #FFFFFF;
+}
+
+.surprise-button:focus {
+    outline: none;
 }

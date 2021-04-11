@@ -1,0 +1,14 @@
+.font-list {
+    height: 1.8rem;
+    width: 12rem;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+}
+
+.font-list:focus {
+    outline: none;
+}

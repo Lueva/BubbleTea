@@ -1,8 +1,7 @@
 const Bubble = ({color, rotation}) => {
     const bubbleStyle = {
-        'transformOrigin': '42% 63%',
-        'transform': 'rotate(' + rotation + 'deg)',
-        'cursor': 'pointer'
+        'transformOrigin': '43% 62%',
+        'transform': 'rotate(' + rotation + 'deg)'
     }
     return (
         <g id="bubble" style={bubbleStyle}>

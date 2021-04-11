@@ -2,7 +2,6 @@
   display: flex;
   margin: auto;
   user-select: none;
-  height: 100vh;
 }
 
 .generator-left {

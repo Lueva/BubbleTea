@@ -6,6 +6,7 @@
 
 .element-picker h2 {
     margin-left: 1rem;
+    width: 14rem;
 }
 
 input[type="color"]::-webkit-color-swatch-wrapper {
