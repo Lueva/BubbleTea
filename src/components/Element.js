@@ -14,7 +14,7 @@ const Element = ({onChangeBubblePosition, onActivateAnimation, onActivateTeaWave
             {tooltipWaveOption} l'animation du Thé.
         </ReactTooltip>
         <div className="item" data-tip data-for="tooltipTeaWave" onClick={() => {onActivateTeaWave()}}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 133.2 188.9">
+            <svg className="bubble-element" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 133.2 188.9">
                 <g id="bubbletea">
                     <Tea color="#BABBC6"></Tea>
                 </g>
