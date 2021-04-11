@@ -7,17 +7,6 @@ import Element from './components/Element';
 
 class App extends Component {
 
-  // Default Tea displayed
-  default = {
-    title: 'Thé Matcha',
-    size: 80,
-    rotation: 0,
-    animation: false,
-    font: 'RocknRoll One',
-    colors: { tea: '#36C90D',  bubble: '#470061',  cup: '#D7D6D5'
-    }
-  }
-
   // Teas that can be randomly generated
   surprises = [{
     title: 'Thé Tard',
@@ -66,7 +55,16 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = this.default
+    this.state = {
+      title: 'Thé Matcha',
+      size: 80,
+      waves: false,
+      rotation: 0,
+      animation: false,
+      font: 'RocknRoll One',
+      colors: { tea: '#36C90D',  bubble: '#470061',  cup: '#D7D6D5'
+      }
+    }
   }
 
   // Change the title of the BubbleTea
@@ -116,6 +114,7 @@ class App extends Component {
     this.setState(surprise)
     this.onChangeFont()
     this.onChangeBubblePosition()
+    this.setState({waves : true})
     this.setState({animation : true})
   }
 
@@ -132,10 +131,12 @@ class App extends Component {
 
   // Add or remove the animation of the BubbleTea
   onActivateAnimation() {
-    if (this.state.animation) {
-      this.setState(this.default)
-    }
     this.setState({animation : !this.state.animation})
+  }
+
+   // Add or remove the animation of the Tea
+   onActivateTeaWave() {
+    this.setState({waves : !this.state.waves})
   }
 
   render() {
@@ -145,11 +146,14 @@ class App extends Component {
           <BubbleTea title={this.state.title} colors={this.state.colors}
                      size={this.state.size} rotation={this.state.rotation}
                      animation={this.state.animation}
+                     waves={this.state.waves}
                      font={this.state.font}></BubbleTea>
           {/*Bottom panel - Allow the user to change the position of the Bubbles and to animate
                             the Cup. */}
           <Element onChangeBubblePosition={() => this.onChangeBubblePosition()}
                    onActivateAnimation={() => this.onActivateAnimation()}
+                   onActivateTeaWave={() => this.onActivateTeaWave()}
+                   waves={this.state.waves}
                    rotation={this.state.rotation} animation={this.state.animation}></Element>
         </div>
         {/*Left panel - Allow the user to change the color of the Tea/Cup/Bubble, the name of the BubbleTea

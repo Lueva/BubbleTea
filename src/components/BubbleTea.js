@@ -3,7 +3,7 @@ import Bubble from './Bubble'
 import Cup from './Cup'
 import Tea from './Tea'
 
-const BubbleTea = ({ colors, title, size, rotation, animation, font }) => {
+const BubbleTea = ({ colors, title, size, rotation, animation, font, waves }) => {
   const bubbleTeaStyle = {
     transform: 'scale(' + size/100 + ')'
   }
@@ -17,7 +17,7 @@ const BubbleTea = ({ colors, title, size, rotation, animation, font }) => {
       <div style={bubbleTeaStyle}>
         <svg xmlns="http://www.w3.org/2000/svg" width="280" viewBox="-10 -35 153.2 225">
           <g id="bubbletea">
-              <Tea color={colors.tea}></Tea>
+              <Tea color={colors.tea} waves={waves}></Tea>
               <Cup color={colors.cup} animation={animation}></Cup>
               <Bubble color={colors.bubble} rotation={rotation}></Bubble>
           </g>
