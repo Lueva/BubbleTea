@@ -1,0 +1,8 @@
+.animation-cup {
+    animation: open 1s steps(2) infinite alternate;
+}
+
+@keyframes open {
+    from { transform: rotate(0deg) translate(0, 0);}
+    to { transform: rotate(45deg) translate(9%, -45%);}
+}

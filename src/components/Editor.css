@@ -1,0 +1,42 @@
+.editor {
+    background-color: lightblue;
+}
+
+.editor-title {
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 2rem;
+}
+
+.name-section {
+    display: flex;
+    align-items: center;
+}
+
+.name-section h2 {
+    margin-left: 1rem;
+}
+
+.name-section input {
+    height: 0.8rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+}
+
+.name-section input:focus {
+    outline: none;
+}
+
+.cup-size {
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.cup-size h2 {
+    margin-right: 2rem;
+}

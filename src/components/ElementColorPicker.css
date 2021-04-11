@@ -1,0 +1,21 @@
+.element-picker {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.element-picker h2 {
+    margin-left: 1rem;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+input[type="color"]:focus {
+    outline: none;
+}

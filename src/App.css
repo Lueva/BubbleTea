@@ -1,0 +1,28 @@
+.generator {
+  display: flex;
+  margin: auto;
+  user-select: none;
+  height: 100vh;
+}
+
+.generator-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.bubble-tea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.editor {
+  flex-shrink: 1;
+  min-width: 27rem;
+}
+
+.element {
+  background-color: #e1edf1;
+  display: flex;
+}
