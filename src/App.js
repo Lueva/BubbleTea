@@ -109,7 +109,7 @@ class App extends Component {
 
   // Randomly generate colors & name of a BubbleTeam
   generateSurprise() {
-    const surpriseIdx = Math.floor(Math.random() * 5)
+    const surpriseIdx = Math.floor(Math.random() * 6)
     const surprise = this.surprises[surpriseIdx]
     this.setState(surprise)
     this.onChangeFont()
