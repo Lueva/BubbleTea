@@ -1,10 +1,10 @@
 # BUBBLE TEA GENERATOR
 
-Générateur & personnalisatioon graphique de Bubble Tea.
+Générateur & personnalisation graphique de Bubble Tea.
 
-- Les aperçus du bas permettent de montrer les différents parties du Bubble Tea & de lancer les animations liées à chaque élément.
-- L'interface centrale présente le Bubble Tea assemblé en fonction des paramètres
-- Le menu de droite HTML permet de sélectionner les différents paramètres grâce à un formulaire
+- Les aperçus du bas permettent de montrer les différentes parties du Bubble Tea & de lancer les animations liées à chaque élément.
+- L'interface centrale présente le Bubble Tea assemblé en fonction des paramètres sélectionné dans le menu de droite.
+- Le menu de droite HTML permet de sélectionner les différents paramètres grâce à un formulaire.
 
 ### JUNIOR
 
