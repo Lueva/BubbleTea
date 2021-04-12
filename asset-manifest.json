@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BubbleTea/static/css/main.602857de.chunk.css",
-    "main.js": "/BubbleTea/static/js/main.cbcec90e.chunk.js",
-    "main.js.map": "/BubbleTea/static/js/main.cbcec90e.chunk.js.map",
+    "main.js": "/BubbleTea/static/js/main.a6c3c43b.chunk.js",
+    "main.js.map": "/BubbleTea/static/js/main.a6c3c43b.chunk.js.map",
     "runtime-main.js": "/BubbleTea/static/js/runtime-main.5aa58293.js",
     "runtime-main.js.map": "/BubbleTea/static/js/runtime-main.5aa58293.js.map",
     "static/js/2.ad751c30.chunk.js": "/BubbleTea/static/js/2.ad751c30.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5aa58293.js",
     "static/js/2.ad751c30.chunk.js",
     "static/css/main.602857de.chunk.css",
-    "static/js/main.cbcec90e.chunk.js"
+    "static/js/main.a6c3c43b.chunk.js"
   ]
 }
